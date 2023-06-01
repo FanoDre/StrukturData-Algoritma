@@ -15,11 +15,10 @@ def perkalian():
     print(f"{'APLIKASI HITUNG PERKALIAN':>44}")
     print(60*'-')
     angka1 = int(input("Kalikan dengan angka?: "))
-    angka2 = int(input("Mulai dari? : "))
-    angka3 = int(input("Sampai dengan? : "))
+    angka2 = int(input("Masukan angka dari 1 sampai dengan: "))
     print(60*'-')
 
-    for x in range(angka2, angka3 + 1):
+    for x in range(1, angka2 + 1):
         print(f"\t{x} x {angka1} = {x*angka1}")
 
     print(60*'-')
@@ -30,11 +29,10 @@ def pembagian():
     print(f"{'APLIKASI HITUNG PEMBAGIAN':>44}")
     print(60*'-')
     angka1 = int(input("Bagi dengan angka?: "))
-    angka2 = int(input("Mulai dari? : "))
-    angka3 = int(input("Sampai dengan? : "))
+    angka2 = int(input("Masukan angka dari 1 sampai dengan: "))
     print(60*'-')
 
-    for x in range(angka2, angka3 + 1):
+    for x in range(1, angka2 + 1):
         print(f"\t{x} x {angka1} = {x/angka1}")
 
     print(60*'-')
@@ -45,11 +43,10 @@ def pertambahan():
     print(f"{'APLIKASI HITUNG PERTAMBAHAN':>44}")
     print(60*'-')
     angka1 = int(input("Tambah dengan angka?: "))
-    angka2 = int(input("Mulai dari? : "))
-    angka3 = int(input("Sampai dengan? : "))
+    angka2 = int(input("Masukan angka dari 1 sampai dengan: "))
     print(60*'-')
 
-    for x in range(angka2, angka3 + 1):
+    for x in range(1, angka2 + 1):
         print(f"\t{x} x {angka1} = {x+angka1}")
 
     print(60*'-')
@@ -60,11 +57,10 @@ def pengurangan():
     print(f"{'APLIKASI HITUNG PENGURANGAN':>44}")
     print(60*'-')
     angka1 = int(input("Tambah dengan angka?: "))
-    angka2 = int(input("Mulai dari? : "))
-    angka3 = int(input("Sampai dengan? : "))
+    angka2 = int(input("Masukan angka dari 1 sampai dengan: "))
     print(60*'-')
 
-    for x in range(angka2, angka3 + 1):
+    for x in range(1, angka2 + 1):
         print(f"\t{x} x {angka1} = {x-angka1}")
 
     print(60*'-')
